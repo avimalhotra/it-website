@@ -12,6 +12,8 @@ html{
     --ff: "Poppins",sans-serif;
     --db:#132577;
 
+    --db:#132577;
+
 }
 body{ font:16px/1.3 var(--ff);}
 
@@ -36,11 +38,8 @@ body{ font:16px/1.3 var(--ff);}
 .just-right{ justify-content: right;}
 .align-center{ align-items: center;}
 .resp{ max-width: 100%; height: auto; }
-<<<<<<< HEAD
 .text-center{ text-align: center;}
 
-=======
->>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 
 /* layout */
 
@@ -56,7 +55,6 @@ header{ margin-bottom: 76px}
 
 
 
-<<<<<<< HEAD
 .wrap-2{ padding: 100px 0;}
 .wrap-2 p.lg{ font-weight: bold; font-size: 28px;}
 
@@ -81,22 +79,12 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
 .about p{font-size: 14px; opacity: 0.6; line-height: 21px; margin: 20px 0 30px;}
 .list{ list-style: disc inside; display: grid; grid-template-columns: repeat(2, 1fr);}
 .list li{ font-size: 14px; font-weight: 500; line-height: 40px; }
-=======
-.wrap-2{ }
-
-
-.wrap-3{ background: var(--db);}
->>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 
 
 
 /* responsive */
 @media screen and (max-width:1280px) {
-<<<<<<< HEAD
     .services  section{ padding: 40px 12px 41px; }
-=======
-    
->>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 }
 
 @media screen and (max-width:980px) {
@@ -129,6 +117,7 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
     .col-m-11{ grid-column: span 11;}
     .col-m-12{ grid-column: span 12;}
     nav{ display: none;}
+    nav{ display: none;}
 }
 
 @media screen and (max-width:460px) {
@@ -144,5 +133,6 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
     .col-p-10{ grid-column: span 10;}
     .col-p-11{ grid-column: span 11;}
     .col-p-12{ grid-column: span 12;}
+    .order-p-before{ order: -1;}
     .order-p-before{ order: -1;}
 }
