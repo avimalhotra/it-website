@@ -36,6 +36,11 @@ body{ font:16px/1.3 var(--ff);}
 .just-right{ justify-content: right;}
 .align-center{ align-items: center;}
 .resp{ max-width: 100%; height: auto; }
+<<<<<<< HEAD
+.text-center{ text-align: center;}
+
+=======
+>>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 
 /* layout */
 
@@ -51,16 +56,47 @@ header{ margin-bottom: 76px}
 
 
 
+<<<<<<< HEAD
+.wrap-2{ padding: 100px 0;}
+.wrap-2 p.lg{ font-weight: bold; font-size: 28px;}
+
+
+.wrap-3{ background: var(--db); color: #fff; padding: 60px 0; }
+
+h2{ font-weight: 500; font-size: 20px; color: var(--db); }
+.wrap-2 p.lg{ margin: 10px 0 40px; opacity: 1;}
+.services section{ box-shadow: 0 0 13px #0000001a; border-radius: 5px; padding: 40px 30px 41px; position: relative; height: 100%; }
+.services section h3{ font: 600 20px/1.5 var(--ff); }
+.services section p{ font-size: 14px; opacity: 0.6; line-height: 21px; margin: 20px 0 30px; }
+.services section a{color: inherit; text-decoration: underline; }
+.services section.dark{ background: var(--db); color: #fff;}
+.services section.first::before{ content: ''; position: absolute; left: 0; right: 0; top: 0; height: 15px; background: var(--db); border-radius: 5px 5px 0 0; }
+
+.company-info{ margin: 100px 0; }
+.company-info b{ font-weight: 600; font-size: 24px; }
+.company-info p{ font-size: 14px; font-weight: 500; }
+.company-info .text-center{ padding: 25px 0; }
+
+.about{ margin: 100px 0;}
+.about p{font-size: 14px; opacity: 0.6; line-height: 21px; margin: 20px 0 30px;}
+.list{ list-style: disc inside; display: grid; grid-template-columns: repeat(2, 1fr);}
+.list li{ font-size: 14px; font-weight: 500; line-height: 40px; }
+=======
 .wrap-2{ }
 
 
 .wrap-3{ background: var(--db);}
+>>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 
 
 
 /* responsive */
 @media screen and (max-width:1280px) {
+<<<<<<< HEAD
+    .services  section{ padding: 40px 12px 41px; }
+=======
     
+>>>>>>> b531eae466c766a2dba20ad1cea6d0bc641837c2
 }
 
 @media screen and (max-width:980px) {
@@ -76,6 +112,7 @@ header{ margin-bottom: 76px}
     .col-t-10{ grid-column: span 10;}
     .col-t-11{ grid-column: span 11;}
     .col-t-12{ grid-column: span 12;} 
+     .order-t-before{ order: -1;}
 }
 
 @media screen and (max-width:767px) {
