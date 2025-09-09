@@ -57,11 +57,10 @@ header{ margin-bottom: 76px; color: #fff;}
 
 
 
-.wrap-2{ padding: 100px 0;}
-.wrap-2 p.lg{ font-weight: bold; font-size: 28px;}
+.wrap-2{ padding: 100px 0 0 0;}
+.wrap-2 p.lg{ font-weight: bold; font-size: 28px; line-height: 42px;}
 
 
-.wrap-3{ background: var(--db); color: #fff; padding: 60px 0; }
 
 h2{ font-weight: 500; font-size: 20px; color: var(--db); }
 .wrap-2 p.lg{ margin: 10px 0 40px; opacity: 1;}
@@ -96,6 +95,32 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
 .works .mission a{ display: block; width: 184px; line-height: 51px; color: #fff; background: var(--db); border-radius: 5px; text-align: center;}
 .works .pic{ align-content: center;}
 
+.reviews{ margin: 100px 0;  }
+.reviews p{ font-size: 14px; line-height: 21px;}
+.review{ border-radius: 5px; text-align: center; }
+.review .bg-white{ box-shadow: 0 0 18px 0 #0000001a; padding: 60px 64px 0;}
+.review .bg-transp{  padding: 54px 64px 0;}
+.reviewer{ transform: translateY(34px); margin: auto; }
+.stars{ margin: 20px 0 0 0;}
+.star-f{ color: #FFC107;}
+.star-e{ color: #7d7d7d;}
+
+.projects a{ display: block; width: 214px; line-height: 51px; background: var(--db); color: #fff; text-align: center; border-radius: 5px; margin-top: 30px; }
+.projects-details{ padding: 0 64px}
+.projects-details p.lg{ margin-bottom: 30px;}
+.projects-details p{font-size: 14px; line-height: 25px; margin: 25px 0; text-transform: capitalize; }
+
+
+.teams{ margin: 100px 0;}
+.team{ padding: 10px 10px 65px 10px; text-align: center; box-shadow: 0 0 18px #0000001a;}
+.social{ list-style: none; padding: 0; display: flex; justify-content: center; gap: 50px; margin-top: 40px;}
+.team h3{ margin-top: 20px;}
+.team p{ font-size: 14px; line-height: 24px; margin: 5px 0 40px;}
+
+
+.wrap-3{ background: var(--db); color: #fff; padding: 60px 0; }
+
+
 
 
 /* responsive */
@@ -118,6 +143,7 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
     .col-t-12{ grid-column: span 12;} 
     .order-t-before{ order: -1;}
     .works li > a{ line-height: 50px;}
+    .projects-details{ padding: 0 20px}
 }
 
 @media screen and (max-width:767px) {
@@ -138,6 +164,7 @@ h2{ font-weight: 500; font-size: 20px; color: var(--db); }
     .works > ul{ flex-flow: column wrap; }
     .works > ul li{ display: block; }
     .works > ul li a{ writing-mode: initial;}
+    .social{ gap: 10px;}
 }
 
 @media screen and (max-width:460px) {
