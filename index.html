@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Website</title>
+    <meta name="description" content="IT Website project with jQuery">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
 </head>
 <body>
     <div class="wrap-1">
@@ -161,7 +163,7 @@
                                                 <img src="img/mission.webp" srcset="img/mission-2x.webp 2x" alt="" width="295" height="300" loading="lazy">
                                             </div>
                                             <div class="mission">
-                                                <h3>OUR Mission</h3>
+                                                <h3>OUR COMPANY</h3>
                                                 <p>Integer non velit nec nunc pulvinar porttitor. Vivamus euismod, mauris ac pellentesque commodo, est nunc dapibus metus, vel dapibus felis lacus sit amet urna. Curabitur feugiat bibendum ex, id mollis enim sollicitudin dictum. Aenean ullamcorper volutpat lacus.</p>
                                                 <a href="">LEARN MORE</a>
                                             </div>
@@ -176,7 +178,7 @@
                                                 <img src="img/mission.webp" srcset="img/mission-2x.webp 2x" alt="" width="295" height="300" loading="lazy">
                                             </div>
                                             <div class="mission">
-                                                <h3>OUR Mission</h3>
+                                                <h3>OUR CUSTOMERS</h3>
                                                 <p>Integer non velit nec nunc pulvinar porttitor. Vivamus euismod, mauris ac pellentesque commodo, est nunc dapibus metus, vel dapibus felis lacus sit amet urna. Curabitur feugiat bibendum ex, id mollis enim sollicitudin dictum. Aenean ullamcorper volutpat lacus.</p>
                                                 <a href="">LEARN MORE</a>
                                             </div>
@@ -361,6 +363,30 @@
             </div>
         </footer>
     </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+"use strict";
 
+$(function(){
+        // console.log(`jQuery ${jQuery.fn.jquery}`);
+        
+    $('.works li > a').click(function(e){
+        e.preventDefault();
+
+
+        let w=$('.collapse').width();
+        $('.works li').removeClass("active");
+        $(this).parent("li").addClass("active");
+        // $('.works .collapse').animate({ width: 0, opacity:0 })
+        // $(this).next('.collapse').animate({ width: w, opacity:1 })
+        
+    }); 
+    
+    $(".menu").click(function(){
+        $("nav").slideToggle();
+    })
+
+})
+</script>
 </body>
 </html>
